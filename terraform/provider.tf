@@ -1,9 +1,9 @@
 provider "aws" {
-    region = var.region
+  region = var.region
 
-    default_tags {
-        tags = {
-            "Name" = "ecspresso"
-        }
+  default_tags {
+    tags = {
+      "Name" = "ecspresso"
     }
+  }
 }
